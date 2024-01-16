@@ -1,3 +1,7 @@
+
+import { useState } from 'react'
+import './App.css'
+import ConfettiComp from './ConfettiComp'
 import React, { useState, useEffect } from 'react';
 import ImageSlider from './ImageSlider';
 import audioFile from './assets/toasty_tfCWsU6.mp3';
@@ -25,6 +29,8 @@ const App = () => {
   }, [audio]);
 
   return (
+     <>
+     <ConfettiComp />
     <div>
       <button onClick={handleButtonClick} >
         TOASTY !!
@@ -36,7 +42,9 @@ const App = () => {
         />
       )}
     </div>
+ </>
   );
 };
+
 
 export default App;

@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import './App.css'
+import JumpingEmoji from './components/JumpingEmoji'
 import ConfettiComp from './ConfettiComp'
 import React, { useState, useEffect } from 'react';
 import ImageSlider from './ImageSlider';
@@ -31,6 +32,7 @@ const App = () => {
   return (
      <>
      <ConfettiComp />
+    <JumpingEmoji />
     <div>
       <button onClick={handleButtonClick} >
         TOASTY !!

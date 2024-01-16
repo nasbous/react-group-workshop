@@ -1,0 +1,15 @@
+.emoji-cont {
+    font-size: 4em;
+}
+
+.card-active {
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.card-passive {
+    border: 2px solid darkslategray;
+    border-radius: 20px;
+    padding: 15px;
+}
